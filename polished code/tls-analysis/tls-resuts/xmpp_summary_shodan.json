@@ -1,0 +1,41 @@
+{
+    "tls_enabled": 13,
+    "supported_tls_version": {
+        "SSLv2": 0,
+        "SSLv3": 0,
+        "1": 7,
+        "1.1": 7,
+        "1.2": 13,
+        "1.3": 5
+    },
+    "vulnerabilities": {
+        "Heartbleed": 0,
+        "CCS": 0,
+        "Ticketbleed": 0,
+        "ROBOT": 0,
+        "Secure Renegotiation": 0,
+        "Secure Client-Initiated Renegotiation": 1,
+        "CRIME": 0,
+        "POODLE": 0,
+        "TLS_FALLBACK_SCSV": 0,
+        "SWEET32": 3,
+        "FREAK": 0,
+        "DROWN": 0,
+        "LOGJAM": 3,
+        "BEAST": 7,
+        "LUCKY13": 0,
+        "Winshock": 0,
+        "RC4 (CVE-2013-2566, CVE-2015-2808)": 0
+    },
+    "certs": {
+        "cn_match_not_ok": 9,
+        "expired_certs": 0,
+        "revoked_certs": 0,
+        "expiration_average": 210.3846153846154,
+        "expiration_stdev": 119.33114881255051,
+        "endpoint_with_revocation_list": 9
+    },
+    "no_tls_enabled": 484,
+    "not_reachable": 177,
+    "analysis_not_finished": 0
+}
