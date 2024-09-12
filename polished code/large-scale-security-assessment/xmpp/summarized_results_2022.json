@@ -1,0 +1,87 @@
+{
+    "ports": {
+        "5222": 261,
+        "5269": 13
+    },
+    "capabilities": {
+        "node: https://www.igniterealtime.org/projects/openfire/": 21,
+        "ver: hGB1XUUQFyFu12npwSrHcdktl/Y=": 1,
+        "ver: z6kzx9HwYMJFcPvQJbvRhdCLavc=": 1,
+        "ver: 8CmNogpUllieYragG7k7jfvF99Q=": 1,
+        "ver: R479vTWa6agXTx8Ep7/1N0WiJO0=": 1,
+        "ver: 1pJPJpYOIqDkKw415zck78DOnZI=": 1,
+        "ver: JbcS+cHExQj2Saq6uK7Yl2OFvqg=": 1,
+        "ver: xbW1uExePh+nuPQdM87f3gzyPXE=": 1,
+        "ver: bJYRgEjNRPv/+VQhhVVtLqvdXxE=": 1,
+        "ver: srO1557g595SBxuKxSZtR5CG/VQ=": 1,
+        "ver: kUa1HAp06xpopXLPGAjW1hwkzY4=": 1,
+        "ver: uSlsuk7nGT5/uAqEvXRyzraCNaI=": 1,
+        "ver: RAtkfzEIXg2yE9lXHVdeguoKn7g=": 1,
+        "ver: f4pF6E7hkRGFnjpwvqFu3OdYXlY=": 1,
+        "ver: oeW9iw/AHUwKwkURdOvzFETusBw=": 1,
+        "ver: 6MLRN1eK9gE0J3y7dpieHrbx2SQ=": 1,
+        "ver: oXnu4YMiVmHs66ujYodQ8P0SvIc=": 1,
+        "ver: ymneB8orjY+uD4gk2/km2MVj+OA=": 2,
+        "ver: G0SlLhvhMq/AFNGZ5Bu5acXraBM=": 1,
+        "ver: TeKF1JJQYT/OVg8Gz+ReiqHxvoU=": 1,
+        "ver: MEyrS89t7kuWHpofZP6Up6mdZwA=": 1
+    },
+    "features": {
+        "Roster Versioning": 29,
+        "TLS": 56,
+        "In-Band Registration": 24,
+        "TLS (required)": 6,
+        "Server Dialback": 1
+    },
+    "compression_methods": {
+        "zlib": 45
+    },
+    "auth_mechanisms": {
+        "PLAIN": 56,
+        "SCRAM-SHA-1": 25,
+        "CRAM-MD5": 33,
+        "DIGEST-MD5": 36,
+        "HUD": 2,
+        "Non-SASL": 17,
+        "ANONYMOUS": 9,
+        "NTLM": 1,
+        "OCC-COMMS-CLIENT-PROXY-AUTH": 1,
+        "OFMEET": 1,
+        "EXTERNAL": 3,
+        "JIVE-SHAREDSECRET": 5,
+        "GSSAPI": 2,
+        "TIKITOKEN": 1,
+        "JWT": 1
+    },
+    "langs": {
+        "ru-RU": 60,
+        "en": 30,
+        "ru": 8,
+        "de": 1
+    },
+    "versions": {
+        "1.0": 102,
+        "(none)": 18
+    },
+    "errors": {
+        "host-unknown  text: service requested for unknown domainstream:stream(timeout)": 13,
+        "host-unknown(timeout)": 29,
+        "host-unknownhost-unknown(timeout)": 7,
+        "host-unknown  text: This server does not serve 82-64-66-195.subs.proxad.netstream:stream(timeout)": 1,
+        "(timeout)": 9,
+        "host-unknown  text: This server does not serve mail.jabber-germany.destream:stream(timeout)": 1,
+        "(timeout)|_    features: ": 1,
+        "invalid-xml  text: Bad value of attribute &apos;to&apos; in tag &lt;stream:stream/&gt; qualified by namespace &apos;jabber:client&apos;stream:stream(timeout)": 1,
+        "(timeout)|_    auth_mechanisms: ": 1,
+        "invalid-xml  text: Bad value of attribute &apos;to&apos; in tag &lt;stream:stream/&gt; qualified by namespace &apos;jabber:client&apos;stream:stream(timeout)|_    features: ": 2,
+        "host-unknown  text: This server does not serve stream:stream(timeout)": 2,
+        "host-unknown  text: This server does not serve cnfdev03.vulk.coopstream:stream(timeout)": 1,
+        "host-unknownhost-unknown(timeout)|_    auth_mechanisms: ": 1,
+        "host-unknown  text: This server does not serve tel.micmedia.rustream:stream(timeout)": 1,
+        "not-authorized(timeout)": 1,
+        "host-unknown  text: This server does not serve ux-2804.infcs.destream:stream(timeout)": 1,
+        "(timeout)|_    capabilities: ": 1,
+        "host-unknown(timeout)|_    compression_methods: ": 1,
+        "host-unknown  text: This server does not serve xmpp.zp1.netstream:stream(timeout)": 1
+    }
+}
