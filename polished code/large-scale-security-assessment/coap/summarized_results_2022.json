@@ -1,0 +1,29 @@
+{
+    "versions": {
+        "coap-rs": 1886,
+        "FreeCoAP": 932,
+        "aiocoap": 19,
+        "ecoap": 15,
+        "microcoap": 10,
+        "CoAPthon": 2
+    },
+    "zyxel_AF": {
+        "max": 849.06,
+        "mean": 240.61322122801604,
+        "stdev": 25.80603248779888
+    },
+    "iotivity_AF": {
+        "max": 849.06,
+        "mean": 517.4356,
+        "stdev": 360.0794833213911
+    },
+    "vulnerabilities": {
+        "ZYXEL_000": 25832,
+        "COAPTHON_000": 102,
+        "ER_COAP_001": 68,
+        "COAPTHON3_000": 110,
+        "IOTIVITY_000": 25,
+        "ER_COAP_000": 151,
+        "ER_COAP_002": 70
+    }
+}
