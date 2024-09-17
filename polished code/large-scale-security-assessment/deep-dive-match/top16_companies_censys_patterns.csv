@@ -1,0 +1,8 @@
+pattern,Company_name
+(((\w[\-\w]*\.)|\*\.)+|^)(iot-(coaps|mqtts|https|amqps|api|da)\.)(\w[\-\w]*\.)?(myhuaweicloud\.com),'Huawei Technologies'
+(((\w[\-\w]*\.)|\*\.)+|^)(iot-(coaps|mqtts|https|amqps|api|da)\.)(\w[\-\w]*\.)?(huaweicloud\.com),'Huawei Technologies'
+(((\w[\-\w]*\.)|\*\.)+|^)(iot\.)(\w[\-\w]*\.)?(amazonaws\.com$),'Amazon AWS'
+(((\w[\-\w]*\.)|\*\.)+|^)(link\.aliyuncs\.com$),'Alibaba Cloud'
+(((\w[\-\w]*\.)|\*\.)+|^)(iot-(as-(coap|mqtt|amqp|http|http2)|amqp)\.)(\w[\-\w]*\.)?(aliyuncs\.com$),'Alibaba Cloud'
+(((\w[\-\w]*\.)|\*\.)+|^)(iot\.)(\w[\-\w]*\.)?(oraclecloud\.com$),'Oracle'
+(((\w[\-\w]*\.)|\*\.)+|^)(iot\.)(\w[\-\w]*\.)?(baidubce\.com$),Baidu

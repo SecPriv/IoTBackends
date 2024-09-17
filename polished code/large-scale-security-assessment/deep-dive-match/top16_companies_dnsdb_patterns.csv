@@ -1,0 +1,28 @@
+company,domain_A_queries,domain_AAAA_queries,domain_CNAME_queries
+'Huawei Technologies',.\.(iot-(coaps|mqtts|https|amqps|api|da)\.).+\.myhuaweicloud\.com\.$/A,.\.(iot-(coaps|mqtts|https|amqps|api|da)\.).+\.myhuaweicloud\.com\.$/AAAA,.\.(iot-(coaps|mqtts|https|amqps|api|da)\.).+\.myhuaweicloud\.com\.$/CNAME
+'Huawei Technologies',.\.(iot-(coaps|mqtts|https|amqps|api|da)\.).+\.huaweicloud\.com\.$/A,.\.(iot-(coaps|mqtts|https|amqps|api|da)\.).+\.huaweicloud\.com\.$/AAAA,.\.(iot-(coaps|mqtts|https|amqps|api|da)\.).+\.huaweicloud\.com\.$/CNAME
+'Amazon AWS',(.+)(\.iot\.)([[:alnum:]]+(-[[:alnum:]]+)+)?(\.amazonaws\.com\.$)/A,(.+)(\.iot\.)([[:alnum:]]+(-[[:alnum:]]+)+)?(\.amazonaws\.com\.$)/AAAA,(.+)(\.iot\.)([[:alnum:]]+(-[[:alnum:]]+)+)?(\.amazonaws\.com\.$)/CNAME
+'Amazon AWS',(.+)(\.lorawan\.)([[:alnum:]]+(-[[:alnum:]]+)+)?(\.amazonaws\.com\.$)/A,(.+)(\.lorawan\.)([[:alnum:]]+(-[[:alnum:]]+)+)?(\.amazonaws\.com\.$)/AAAA,(.+)(\.lorawan\.)([[:alnum:]]+(-[[:alnum:]]+)+)?(\.amazonaws\.com\.$)/CNAME
+'Alibaba Cloud',(.+\.|^)coap\..+\.link\.aliyuncs\.com\.$/A,(.+\.|^)coap\..+\.link\.aliyuncs\.com\.$/AAAA,(.+\.|^)coap\..+\.link\.aliyuncs\.com\.$/CNAME
+'Alibaba Cloud',.\.(iot-(as-(coap|mqtt|amqp|http|http2)|amqp)\.).+\.aliyuncs\.com\.$/A,.\.(iot-(as-(coap|mqtt|amqp|http|http2)|amqp)\.).+\.aliyuncs\.com\.$/AAAA,.\.(iot-(as-(coap|mqtt|amqp|http|http2)|amqp)\.).+\.aliyuncs\.com\.$/CNAME
+'Oracle',(.+\.|^)(iot\.)([[:alnum:]]+(-[[:alnum:]]+)*\.)?(oraclecloud\.com\.$)/A,(.+\.|^)(iot\.)([[:alnum:]]+(-[[:alnum:]]+)*\.)?(oraclecloud\.com\.$)/AAAA,(.+\.|^)(iot\.)([[:alnum:]]+(-[[:alnum:]]+)*\.)?(oraclecloud\.com\.$)/CNAME
+'Oracle',.+\.oracleiotcloud\.com\.$/A,.+\.oracleiotcloud\.com\.$/AAAA,.+\.oracleiotcloud\.com\.$/CNAME
+Baidu,.\.(iot\.)([[:alnum:]]+(-[[:alnum:]]+)*\.)?(baidubce\.com\.$)/A,.\.(iot\.)([[:alnum:]]+(-[[:alnum:]]+)*\.)?(baidubce\.com\.$)/AAAA,.\.(iot\.)([[:alnum:]]+(-[[:alnum:]]+)*\.)?(baidubce\.com\.$)/CNAME
+PTC,(.+\.|^)(cloud\.thingworx\.com\.$)/A,(.+\.|^)(cloud\.thingworx\.com\.$)/AAAA,(.+\.|^)(cloud\.thingworx\.com\.$)/CNAME
+Siemens,.(\.eu1\.mindsphere\.io\.$)/A,.(\.eu1\.mindsphere\.io\.$)/AAAA,.(\.eu1\.mindsphere\.io\.$)/CNAME
+Siemens,.(\.eu2\.mindsphere\.io\.$)/A,.(\.eu2\.mindsphere\.io\.$)/AAAA,.(\.eu2\.mindsphere\.io\.$)/CNAME
+Siemens,.(\.cn1\.mindsphere-in\.cn\.$)/A,.(\.cn1\.mindsphere-in\.cn\.$)/AAAA,.(\.cn1\.mindsphere-in\.cn\.$)/CNAME
+Sierra Wireless,(.+\.|^)(na\.airvantage\.net\.$)/A,(.+\.|^)(na\.airvantage\.net\.$)/AAAA,(.+\.|^)(na\.airvantage\.net\.$)/CNAME
+Sierra Wireless,(.+\.|^)(eu\.airvantage\.net\.$)/A,(.+\.|^)(eu\.airvantage\.net\.$)/AAAA,(.+\.|^)(eu\.airvantage\.net\.$)/CNAME
+Sierra Wireless,(.+\.|^)(bs\.airvantage\.net\.$)/A,(.+\.|^)(bs\.airvantage\.net\.$)/AAAA,(.+\.|^)(bs\.airvantage\.net\.$)/CNAME
+Sierra Wireless,(.+\.|^)(m2mop\.net\.$)/A,(.+\.|^)(m2mop\.net\.$)/AAAA,(.+\.|^)(m2mop\.net\.$)/CNAME
+Bosch,(.+\.|^)(bosch-iot-suite\.com\.$)/A,(.+\.|^)(bosch-iot-suite\.com\.$)/AAAA,(.+\.|^)(bosch-iot-suite\.com\.$)/CNAME
+Bosch,(.+\.|^)(bosch-iot-hub.com\.$)/A,(.+\.|^)(bosch-iot-hub.com\.$)/AAAA,(.+\.|^)(bosch-iot-hub.com\.$)/CNAME
+IBM,(.+\.|^)(internetofthings\.ibmcloud.com\.$)/A,(.+\.|^)(internetofthings\.ibmcloud.com\.$)/AAAA,(.+\.|^)(internetofthings\.ibmcloud.com\.$)/CNAME
+SAP,(.+\.|^)(iot\.sap\.$)/A,(.+\.|^)(iot\.sap\.$)/AAAA,(.+\.|^)(iot\.sap\.$)/CNAME
+Cisco,(.+\.|^)(ciscokinetic\.io\.$)/A,(.+\.|^)(ciscokinetic\.io\.$)/AAAA,(.+\.|^)(ciscokinetic\.io\.$)/CNAME
+Fujitsu,(.+\.|^)(pass\.cloud\.global\.fujitsu\.com\.$)/A,(.+\.|^)(pass\.cloud\.global\.fujitsu\.com\.$)/AAAA,(.+\.|^)(pass\.cloud\.global\.fujitsu\.com\.$)/CNAME
+Microsoft,(.+\.|^)(azure-devices\.net\.$)/A,(.+\.|^)(azure-devices\.net\.$)/AAAA,(.+\.|^)(azure-devices\.net\.$)/CNAME
+Google,(.+\.|^)(mqtt\.googleapis\.com\.$)/A,(.+\.|^)(mqtt\.googleapis\.com\.$)/AAAA,(.+\.|^)(mqtt\.googleapis\.com\.$)/CNAME
+Google,(.+\.|^)(cloudiotdevic\.googleapis\.com\.$)/A,(.+\.|^)(cloudiotdevic\.googleapis\.com\.$)/AAAA,(.+\.|^)(cloudiotdevic\.googleapis\.com\.$)/CNAME
+Tencent Holdings,(.+\.|^)(tencentdevices\.com\.$)/A,(.+\.|^)(tencentdevices\.com\.$)/AAAA,(.+\.|^)(tencentdevices\.com\.$)/CNAME
