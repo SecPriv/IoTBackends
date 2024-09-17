@@ -1,5 +1,4 @@
 import json
-import pycountry_convert as pc
 
 analysis = json.load(open('coap_total_2022.json', 'r'))
 resources = json.load(open('active_endpoints.json', 'r'))

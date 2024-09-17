@@ -1,5 +1,4 @@
 import json
-import pycountry_convert as pc
 
 analysis = json.load(open('mqtt_total_2022.json', 'r'))
 emails = json.load(open('email_addresses.json', 'r'))
