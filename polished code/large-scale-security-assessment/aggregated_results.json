@@ -1,0 +1,74 @@
+{
+    "coap": {
+        "information_leakage": {
+            "2022": 2928,
+            "2023": 959,
+            "2024": 865,
+            "not_vuln_2023": 64,
+            "not_vuln_2024": 17,
+            "offline_2023": 1905,
+            "offline_2024": 2046,
+            "new_vuln_2023": 3,
+            "new_vuln_2024": 2
+        },
+        "DoS": {
+            "2022": 26117,
+            "2023": 14320,
+            "2024": 12862,
+            "not_vuln_2023": 91,
+            "not_vuln_2024": 58,
+            "offline_2023": 11706,
+            "offline_2024": 13197,
+            "new_vuln_2023": 1,
+            "new_vuln_2024": 1
+        }
+    },
+    "mqtt": {
+        "information_leakage": {
+            "2022": 28830,
+            "2023": 15489,
+            "2024": 12996,
+            "not_vuln_2023": 215,
+            "not_vuln_2024": 72,
+            "offline_2023": 13126,
+            "offline_2024": 15762,
+            "new_vuln_2023": 5,
+            "new_vuln_2024": 6
+        },
+        "DoS": {
+            "2022": 410,
+            "2023": 7,
+            "2024": 109,
+            "not_vuln_2023": 189,
+            "not_vuln_2024": 60,
+            "offline_2023": 214,
+            "offline_2024": 241,
+            "new_vuln_2023": 140,
+            "new_vuln_2024": 143
+        }
+    },
+    "xmpp": {
+        "information_leakage": {
+            "2022": 123,
+            "2023": 0,
+            "2024": 0,
+            "not_vuln_2023": 1,
+            "not_vuln_2024": 0,
+            "offline_2023": 35,
+            "offline_2024": 38,
+            "new_vuln_2023": 0,
+            "new_vuln_2024": 0
+        },
+        "weak_authentication": {
+            "2022": 62,
+            "2023": 2,
+            "2024": 6,
+            "not_vuln_2023": 1,
+            "not_vuln_2024": 0,
+            "offline_2023": 25,
+            "offline_2024": 27,
+            "new_vuln_2023": 0,
+            "new_vuln_2024": 0
+        }
+    }
+}
