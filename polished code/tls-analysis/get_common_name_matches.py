@@ -148,8 +148,7 @@ def get_first_ip_result (contents):
 
 base_folder = 'tls-results/'
 
-endpoint_type = sys.argv[1] 
-protocol = sys.argv[2]
+protocol = sys.argv[1]
 
 result = {}
 certificates_common_names = {}

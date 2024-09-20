@@ -8,7 +8,7 @@ logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S
 
 #python3 check_shodan_endpoints.py 0 -1 datasets/mqtt_subset_100k.json tls-results/mqtt/
 
-testssl_path = './testssl/testssl.sh/testssl.sh'
+testssl_path = './testssl.sh'
 already_checked_endpoints = set()
 timeout_sec = 120
 

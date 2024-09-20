@@ -178,8 +178,7 @@ def check_supported_ciphers(contents, endpoint):
 
 base_folder = 'tls-results/'
 
-endpoint_type = sys.argv[1] 
-protocol = sys.argv[2]
+protocol = sys.argv[1]
 
 result = {}
 
