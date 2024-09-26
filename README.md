@@ -1,6 +1,6 @@
-# IoTBackends
+# Large-Scale Security Analysis of Real-World Backend Deployments Speaking IoT-Focused Protocols
 
-The following repository contains the code for the backends analysis presented at RAID 2024 in scope of the paper "Large-Scale Security Analysis of Real-World Backend Deployments Speaking IoT-Focused Protocols".
+The following repository contains the code for the backends analysis presented at the 27th International Symposium on Research in Attacks, Intrusions and Defenses (RAID) 2024 in scope of the paper "Large-Scale Security Analysis of Real-World Backend Deployments Speaking IoT-Focused Protocols".
 How to cite the [paper](raid2024-iot-backends.pdf):
 
 ```
