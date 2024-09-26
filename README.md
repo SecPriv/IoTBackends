@@ -16,7 +16,7 @@ How to cite the [paper](raid2024-iot-backends.pdf):
 
 ## Directory Structure:
 
-The folder [polished code](polished%20code) contains all the scripts that we used to collect the Shodan backends, evaluate their security and compute statistics and draw plots. For more details information, navigate to each folder where a specific README file is present. All scripts are written in Python and use version 3.10.12.
+The folder [polished code](polished%20code) contains all the scripts that we used to collect the Shodan backends, evaluate their security and compute statistics and draw plots. For more detailed information, navigate to each folder where a specific README file is present. All scripts are written in Python and use version 3.10.12.
 
 Additionally, the [paper in PDF format](raid2024-iot-backends.pdf) is present in the main folder.
 
